@@ -93,17 +93,6 @@ public class admin_choose_page extends JFrame {
         two_text.setBounds(860,700,200,60);
         add(two_text);
         
-        
-        
-        
-        
-        
-        
+
     }
     
-    
-    public static void main(String[] args){
-    admin_choose_page choose=new admin_choose_page();
-    
- 
-}
