@@ -764,11 +764,4 @@ public class user_two_wheeler extends JFrame {
         }
     }
         
- 
-   public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            user_two_wheeler t = new user_two_wheeler();
-            t.setVisible(true);
-        });
-    }
 }
