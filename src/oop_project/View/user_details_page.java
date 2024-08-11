@@ -248,8 +248,4 @@ public class user_details_page extends JFrame {
         }
     }
  
-    public static void main(String[] args) {
-        user_details_page details = new user_details_page();
-        details.setVisible(true);
-    }
 }
