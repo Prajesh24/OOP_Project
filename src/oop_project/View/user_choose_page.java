@@ -83,7 +83,7 @@ public class user_choose_page extends JFrame {
             user_two_wheeler t = new user_two_wheeler();
             t.setVisible(true);
         });
-                dispose(); // Close the current HomePage
+                dispose(); 
             }
         });
         
@@ -92,19 +92,7 @@ public class user_choose_page extends JFrame {
         two_text.setForeground(new Color(0,0,0));
         two_text.setFont(new Font("AERIAL", Font.PLAIN,26));
         two_text.setBounds(860,700,200,60);
-        add(two_text);
-        
-        
-        
-        
-        
-        
-        
+        add(two_text);     
     }
     
-    
-    public static void main(String[] args){
-    user_choose_page choose=new user_choose_page();
-    choose.setVisible(true);
-}
 }
