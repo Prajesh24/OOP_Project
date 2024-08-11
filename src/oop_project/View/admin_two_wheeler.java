@@ -850,8 +850,4 @@ public class admin_two_wheeler extends JFrame {
    
 }
  
-    public static void main(String[] args) {
-        admin_two_wheeler t = new admin_two_wheeler();
-        t.setVisible(true);
-    }
 }
