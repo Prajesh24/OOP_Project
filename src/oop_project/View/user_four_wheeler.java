@@ -113,7 +113,6 @@ public class user_four_wheeler extends JFrame {
         
         
         
- 
         // Top Panel
         JPanel top_panel = new JPanel();
         top_panel.setBounds(150, 0, 1350, 70);
@@ -181,8 +180,6 @@ public class user_four_wheeler extends JFrame {
         torque_value_label.setBounds(1020, 120, 200, 50);
         torque_value_label.setFont(new Font("Times New Roman", Font.BOLD, 20));
         first_panel.add(torque_value_label);
-        
-        
         
         JLabel speed_label=new JLabel("Top Speed");
         speed_label.setOpaque(true);
